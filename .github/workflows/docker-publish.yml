@@ -1,9 +1,9 @@
 name: Docker
 on:
 push:
-branches: [ main ]
+branches: [ correction_service ]
 pull_request:
-branches: [ main ]
+branches: [ correction_service ]
 env:
 # Use docker.io for Docker Hub if empty
 REGISTRY: ghcr.io
